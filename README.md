@@ -50,7 +50,6 @@ sudo /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/AloneMonkey/Monk
 ![](http://p2bzzkn05.bkt.clouddn.com/18-4-10/70735207.jpg)
 
 
-
 ## 华丽的分割线
 
 点右上角的 Star 可以领红包，不信你试试。重签付费应用就是这么容易，感谢MonkeyDev作者。

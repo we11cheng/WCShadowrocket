@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC1CE271207C51EF001CD4BB /* quick-resign.sh in Resources */ = {isa = PBXBuildFile; fileRef = CC1CE270207C51EF001CD4BB /* quick-resign.sh */; };
+		CC1CE274207C51EF001CD4BB /* MethodTraceConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC1CE273207C51EF001CD4BB /* MethodTraceConfig.plist */; };
+		CC1CE277207C51EF001CD4BB /* put ipa or app here in Resources */ = {isa = PBXBuildFile; fileRef = CC1CE276207C51EF001CD4BB /* put ipa or app here */; };
+		CC1CE27F207C51EF001CD4BB /* libWCShadowrocketDylib.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = CC1CE27E207C51EF001CD4BB /* libWCShadowrocketDylib.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		CC1CE284207C51EF001CD4BB /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1CE283207C51EF001CD4BB /* JavaScriptCore.framework */; };
+		CC1CE286207C51EF001CD4BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1CE285207C51EF001CD4BB /* Foundation.framework */; };
+		CC1CE288207C51EF001CD4BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1CE287207C51EF001CD4BB /* UIKit.framework */; };
+		CC1CE28D207C51EF001CD4BB /* WCShadowrocketDylib.mm in Sources */ = {isa = PBXBuildFile; fileRef = CC1CE28C207C51EF001CD4BB /* WCShadowrocketDylib.mm */; };
+		CC1CE290207C51EF001CD4BB /* LLDBTools.h in Headers */ = {isa = PBXBuildFile; fileRef = CC1CE28F207C51EF001CD4BB /* LLDBTools.h */; };
+		CC1CE292207C51EF001CD4BB /* LLDBTools.mm in Sources */ = {isa = PBXBuildFile; fileRef = CC1CE291207C51EF001CD4BB /* LLDBTools.mm */; };
+		CC1CE295207C51EF001CD4BB /* ANYMethodLog.h in Headers */ = {isa = PBXBuildFile; fileRef = CC1CE294207C51EF001CD4BB /* ANYMethodLog.h */; };
+		CC1CE297207C51EF001CD4BB /* ANYMethodLog.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1CE296207C51EF001CD4BB /* ANYMethodLog.m */; };
+		CC1CE299207C51EF001CD4BB /* MethodTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = CC1CE298207C51EF001CD4BB /* MethodTrace.h */; };
+		CC1CE29B207C51EF001CD4BB /* MethodTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1CE29A207C51EF001CD4BB /* MethodTrace.m */; };
+		CC1CE2A0207C51EF001CD4BB /* AntiAntiDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1CE29F207C51EF001CD4BB /* AntiAntiDebug.m */; };
+		CC1CE2A3207C51EF001CD4BB /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = CC1CE2A2207C51EF001CD4BB /* fishhook.c */; };
+		CC1CE2A5207C51EF001CD4BB /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = CC1CE2A4207C51EF001CD4BB /* fishhook.h */; };
+		CC1CE2A7207C51EF001CD4BB /* WCShadowrocketDylib.h in Headers */ = {isa = PBXBuildFile; fileRef = CC1CE2A6207C51EF001CD4BB /* WCShadowrocketDylib.h */; };
+		CC1CE2A9207C51EF001CD4BB /* WCShadowrocketDylib.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1CE2A8207C51EF001CD4BB /* WCShadowrocketDylib.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC1CE280207C51EF001CD4BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC1CE261207C51EF001CD4BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC1CE27D207C51EF001CD4BB;
+			remoteInfo = WCShadowrocketDylib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC1CE269207C51EF001CD4BB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CC1CE27F207C51EF001CD4BB /* libWCShadowrocketDylib.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC1CE26C207C51EF001CD4BB /* WCShadowrocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WCShadowrocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC1CE270207C51EF001CD4BB /* quick-resign.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "quick-resign.sh"; path = "Scripts/quick-resign.sh"; sourceTree = "<group>"; };
+		CC1CE273207C51EF001CD4BB /* MethodTraceConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = MethodTraceConfig.plist; path = Config/MethodTraceConfig.plist; sourceTree = "<group>"; };
+		CC1CE276207C51EF001CD4BB /* put ipa or app here */ = {isa = PBXFileReference; lastKnownFileType = text; name = "put ipa or app here"; path = "TargetApp/put ipa or app here"; sourceTree = "<group>"; };
+		CC1CE278207C51EF001CD4BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC1CE27E207C51EF001CD4BB /* libWCShadowrocketDylib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libWCShadowrocketDylib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC1CE283207C51EF001CD4BB /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		CC1CE285207C51EF001CD4BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CC1CE287207C51EF001CD4BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CC1CE28B207C51EF001CD4BB /* WCShadowrocketDylib.xm */ = {isa = PBXFileReference; lastKnownFileType = text; name = WCShadowrocketDylib.xm; path = Logos/WCShadowrocketDylib.xm; sourceTree = "<group>"; };
+		CC1CE28C207C51EF001CD4BB /* WCShadowrocketDylib.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = WCShadowrocketDylib.mm; path = Logos/WCShadowrocketDylib.mm; sourceTree = "<group>"; };
+		CC1CE28F207C51EF001CD4BB /* LLDBTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LLDBTools.h; path = Tools/LLDBTools.h; sourceTree = "<group>"; };
+		CC1CE291207C51EF001CD4BB /* LLDBTools.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = LLDBTools.mm; path = Tools/LLDBTools.mm; sourceTree = "<group>"; };
+		CC1CE294207C51EF001CD4BB /* ANYMethodLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ANYMethodLog.h; path = MethodTrace/ANYMethodLog.h; sourceTree = "<group>"; };
+		CC1CE296207C51EF001CD4BB /* ANYMethodLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ANYMethodLog.m; path = MethodTrace/ANYMethodLog.m; sourceTree = "<group>"; };
+		CC1CE298207C51EF001CD4BB /* MethodTrace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MethodTrace.h; path = MethodTrace/MethodTrace.h; sourceTree = "<group>"; };
+		CC1CE29A207C51EF001CD4BB /* MethodTrace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MethodTrace.m; path = MethodTrace/MethodTrace.m; sourceTree = "<group>"; };
+		CC1CE29D207C51EF001CD4BB /* WCShadowrocketDylib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WCShadowrocketDylib-Prefix.pch"; sourceTree = "<group>"; };
+		CC1CE29F207C51EF001CD4BB /* AntiAntiDebug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AntiAntiDebug.m; path = AntiAntiDebug/AntiAntiDebug.m; sourceTree = "<group>"; };
+		CC1CE2A2207C51EF001CD4BB /* fishhook.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fishhook.c; path = fishhook/fishhook.c; sourceTree = "<group>"; };
+		CC1CE2A4207C51EF001CD4BB /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = fishhook/fishhook.h; sourceTree = "<group>"; };
+		CC1CE2A6207C51EF001CD4BB /* WCShadowrocketDylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCShadowrocketDylib.h; sourceTree = "<group>"; };
+		CC1CE2A8207C51EF001CD4BB /* WCShadowrocketDylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCShadowrocketDylib.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC1CE266207C51EF001CD4BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1CE27B207C51EF001CD4BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1CE284207C51EF001CD4BB /* JavaScriptCore.framework in Frameworks */,
+				CC1CE288207C51EF001CD4BB /* UIKit.framework in Frameworks */,
+				CC1CE286207C51EF001CD4BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC1CE260207C51EF001CD4BB = {
+			isa = PBXGroup;
+			children = (
+				CC1CE26E207C51EF001CD4BB /* WCShadowrocket */,
+				CC1CE289207C51EF001CD4BB /* WCShadowrocketDylib */,
+				CC1CE282207C51EF001CD4BB /* Frameworks */,
+				CC1CE26D207C51EF001CD4BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC1CE26D207C51EF001CD4BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC1CE26C207C51EF001CD4BB /* WCShadowrocket.app */,
+				CC1CE27E207C51EF001CD4BB /* libWCShadowrocketDylib.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC1CE26E207C51EF001CD4BB /* WCShadowrocket */ = {
+			isa = PBXGroup;
+			children = (
+				CC1CE278207C51EF001CD4BB /* Info.plist */,
+				CC1CE26F207C51EF001CD4BB /* Scripts */,
+				CC1CE272207C51EF001CD4BB /* Config */,
+				CC1CE275207C51EF001CD4BB /* TargetApp */,
+			);
+			path = WCShadowrocket;
+			sourceTree = "<group>";
+		};
+		CC1CE26F207C51EF001CD4BB /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				CC1CE270207C51EF001CD4BB /* quick-resign.sh */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+		CC1CE272207C51EF001CD4BB /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				CC1CE273207C51EF001CD4BB /* MethodTraceConfig.plist */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		CC1CE275207C51EF001CD4BB /* TargetApp */ = {
+			isa = PBXGroup;
+			children = (
+				CC1CE276207C51EF001CD4BB /* put ipa or app here */,
+			);
+			name = TargetApp;
+			sourceTree = "<group>";
+		};
+		CC1CE282207C51EF001CD4BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC1CE283207C51EF001CD4BB /* JavaScriptCore.framework */,
+				CC1CE285207C51EF001CD4BB /* Foundation.framework */,
+				CC1CE287207C51EF001CD4BB /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC1CE289207C51EF001CD4BB /* WCShadowrocketDylib */ = {
+			isa = PBXGroup;
+			children = (
+				CC1CE2A6207C51EF001CD4BB /* WCShadowrocketDylib.h */,
+				CC1CE2A8207C51EF001CD4BB /* WCShadowrocketDylib.m */,
+				CC1CE28A207C51EF001CD4BB /* Logos */,
+				CC1CE28E207C51EF001CD4BB /* Tools */,
+				CC1CE293207C51EF001CD4BB /* MethodTrace */,
+				CC1CE29E207C51EF001CD4BB /* AntiAntiDebug */,
+				CC1CE2A1207C51EF001CD4BB /* fishhook */,
+				CC1CE29C207C51EF001CD4BB /* Supporting Files */,
+			);
+			path = WCShadowrocketDylib;
+			sourceTree = "<group>";
+		};
+		CC1CE28A207C51EF001CD4BB /* Logos */ = {
+			isa = PBXGroup;
+			children = (
+				CC1CE28B207C51EF001CD4BB /* WCShadowrocketDylib.xm */,
+				CC1CE28C207C51EF001CD4BB /* WCShadowrocketDylib.mm */,
+			);
+			name = Logos;
+			sourceTree = "<group>";
+		};
+		CC1CE28E207C51EF001CD4BB /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				CC1CE28F207C51EF001CD4BB /* LLDBTools.h */,
+				CC1CE291207C51EF001CD4BB /* LLDBTools.mm */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		CC1CE293207C51EF001CD4BB /* MethodTrace */ = {
+			isa = PBXGroup;
+			children = (
+				CC1CE294207C51EF001CD4BB /* ANYMethodLog.h */,
+				CC1CE296207C51EF001CD4BB /* ANYMethodLog.m */,
+				CC1CE298207C51EF001CD4BB /* MethodTrace.h */,
+				CC1CE29A207C51EF001CD4BB /* MethodTrace.m */,
+			);
+			name = MethodTrace;
+			sourceTree = "<group>";
+		};
+		CC1CE29C207C51EF001CD4BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC1CE29D207C51EF001CD4BB /* WCShadowrocketDylib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC1CE29E207C51EF001CD4BB /* AntiAntiDebug */ = {
+			isa = PBXGroup;
+			children = (
+				CC1CE29F207C51EF001CD4BB /* AntiAntiDebug.m */,
+			);
+			name = AntiAntiDebug;
+			sourceTree = "<group>";
+		};
+		CC1CE2A1207C51EF001CD4BB /* fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				CC1CE2A2207C51EF001CD4BB /* fishhook.c */,
+				CC1CE2A4207C51EF001CD4BB /* fishhook.h */,
+			);
+			name = fishhook;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CC1CE27C207C51EF001CD4BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1CE290207C51EF001CD4BB /* LLDBTools.h in Headers */,
+				CC1CE2A7207C51EF001CD4BB /* WCShadowrocketDylib.h in Headers */,
+				CC1CE299207C51EF001CD4BB /* MethodTrace.h in Headers */,
+				CC1CE295207C51EF001CD4BB /* ANYMethodLog.h in Headers */,
+				CC1CE2A5207C51EF001CD4BB /* fishhook.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CC1CE26B207C51EF001CD4BB /* WCShadowrocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC1CE2AF207C51EF001CD4BB /* Build configuration list for PBXNativeTarget "WCShadowrocket" */;
+			buildPhases = (
+				CC1CE265207C51EF001CD4BB /* Sources */,
+				CC1CE266207C51EF001CD4BB /* Frameworks */,
+				CC1CE267207C51EF001CD4BB /* ShellScript */,
+				CC1CE268207C51EF001CD4BB /* Resources */,
+				CC1CE269207C51EF001CD4BB /* CopyFiles */,
+				CC1CE26A207C51EF001CD4BB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC1CE281207C51EF001CD4BB /* PBXTargetDependency */,
+			);
+			name = WCShadowrocket;
+			productName = WCShadowrocket;
+			productReference = CC1CE26C207C51EF001CD4BB /* WCShadowrocket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC1CE27D207C51EF001CD4BB /* WCShadowrocketDylib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC1CE2AC207C51EF001CD4BB /* Build configuration list for PBXNativeTarget "WCShadowrocketDylib" */;
+			buildPhases = (
+				CC1CE279207C51EF001CD4BB /* ShellScript */,
+				CC1CE27A207C51EF001CD4BB /* Sources */,
+				CC1CE27B207C51EF001CD4BB /* Frameworks */,
+				CC1CE27C207C51EF001CD4BB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WCShadowrocketDylib;
+			productName = WCShadowrocketDylib;
+			productReference = CC1CE27E207C51EF001CD4BB /* libWCShadowrocketDylib.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC1CE261207C51EF001CD4BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = gwc;
+				TargetAttributes = {
+					CC1CE26B207C51EF001CD4BB = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					CC1CE27D207C51EF001CD4BB = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = CC1CE264207C51EF001CD4BB /* Build configuration list for PBXProject "WCShadowrocket" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC1CE260207C51EF001CD4BB;
+			productRefGroup = CC1CE26D207C51EF001CD4BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC1CE26B207C51EF001CD4BB /* WCShadowrocket */,
+				CC1CE27D207C51EF001CD4BB /* WCShadowrocketDylib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC1CE268207C51EF001CD4BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1CE271207C51EF001CD4BB /* quick-resign.sh in Resources */,
+				CC1CE274207C51EF001CD4BB /* MethodTraceConfig.plist in Resources */,
+				CC1CE277207C51EF001CD4BB /* put ipa or app here in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CC1CE267207C51EF001CD4BB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = /opt/MonkeyDev/Tools/pack.sh;
+		};
+		CC1CE26A207C51EF001CD4BB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/Tools/pack.sh codesign";
+		};
+		CC1CE279207C51EF001CD4BB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp-logos";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC1CE265207C51EF001CD4BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1CE27A207C51EF001CD4BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1CE29B207C51EF001CD4BB /* MethodTrace.m in Sources */,
+				CC1CE2A0207C51EF001CD4BB /* AntiAntiDebug.m in Sources */,
+				CC1CE28D207C51EF001CD4BB /* WCShadowrocketDylib.mm in Sources */,
+				CC1CE297207C51EF001CD4BB /* ANYMethodLog.m in Sources */,
+				CC1CE2A9207C51EF001CD4BB /* WCShadowrocketDylib.m in Sources */,
+				CC1CE2A3207C51EF001CD4BB /* fishhook.c in Sources */,
+				CC1CE292207C51EF001CD4BB /* LLDBTools.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC1CE281207C51EF001CD4BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC1CE27D207C51EF001CD4BB /* WCShadowrocketDylib */;
+			targetProxy = CC1CE280207C51EF001CD4BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CC1CE2AA207C51EF001CD4BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC1CE2AB207C51EF001CD4BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC1CE2AD207C51EF001CD4BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 296BA8G9JQ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WCShadowrocketDylib/WCShadowrocketDylib-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libWCShadowrocketDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"WCShadowrocketDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-lsubstrate",
+					"-framework",
+					Cycript,
+					"-framework",
+					RevealServer,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		CC1CE2AE207C51EF001CD4BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 296BA8G9JQ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WCShadowrocketDylib/WCShadowrocketDylib-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libWCShadowrocketDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"WCShadowrocketDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-lsubstrate",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC1CE2B0207C51EF001CD4BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 296BA8G9JQ;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = WCShadowrocket/Info.plist;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_INSERT_DYLIB = YES;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = com.obizsoft.WCShadowrocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC1CE2B1207C51EF001CD4BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 296BA8G9JQ;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = WCShadowrocket/Info.plist;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_INSERT_DYLIB = YES;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = com.obizsoft.WCShadowrocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC1CE264207C51EF001CD4BB /* Build configuration list for PBXProject "WCShadowrocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC1CE2AA207C51EF001CD4BB /* Debug */,
+				CC1CE2AB207C51EF001CD4BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC1CE2AC207C51EF001CD4BB /* Build configuration list for PBXNativeTarget "WCShadowrocketDylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC1CE2AD207C51EF001CD4BB /* Debug */,
+				CC1CE2AE207C51EF001CD4BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC1CE2AF207C51EF001CD4BB /* Build configuration list for PBXNativeTarget "WCShadowrocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC1CE2B0207C51EF001CD4BB /* Debug */,
+				CC1CE2B1207C51EF001CD4BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC1CE261207C51EF001CD4BB /* Project object */;
+}

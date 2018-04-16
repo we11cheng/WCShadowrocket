@@ -1,5 +1,5 @@
-# iOS版Shadowrocket 完美重签 无需付费 无需越狱~
-
+# iOS版Shadowrocket 完美重签 无需付费 无需越狱~ (理论上支持越狱手机所有已购App)
+# 越狱手机砸壳ipa 详见<https://github.com/AloneMonkey/frida-ios-dump>
 
 ## 使用
 

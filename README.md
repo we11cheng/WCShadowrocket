@@ -37,7 +37,7 @@ sudo /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/AloneMonkey/Monk
 - 打开工程 WCShadowrocket.xcodeproj 
 - 选择证书：自动配置证书即可（相信大家都是没有问题的）。
 - 选择设备(不可选择模拟器，且仅支持64位设备)运行。
-- 本次测试机iphone6s 10.3.3 xcode 9.2（其他机型应该也没问题）。
+- 本次测试机iphone6s 10.3.3 xcode 9.3（其他机型应该也没问题）。
 
 
 ## 版权及免责声明

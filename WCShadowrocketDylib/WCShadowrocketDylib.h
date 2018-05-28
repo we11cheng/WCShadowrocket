@@ -4,8 +4,8 @@
 //  WCShadowrocketDylib.h
 //  WCShadowrocketDylib
 //
-//  Created by gwc on 2018/4/10.
-//  Copyright (c) 2018 gwc. All rights reserved.
+//  Created by admin on 28/05/2018.
+//  Copyright (c) 2018 guanweicheng. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -15,6 +15,8 @@
 @interface CustomViewController
 
 @property (nonatomic, copy) NSString* newProperty;
+
++ (void)classMethod;
 
 - (NSString*)getMyName;
 

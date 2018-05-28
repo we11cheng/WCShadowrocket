@@ -2,33 +2,59 @@
 
 #import <UIKit/UIKit.h>
 
-%hook ClassName
+@interface CustomViewController
 
-+ (id)sharedInstance
+@property (nonatomic, copy) NSString* newProperty;
+
++ (void)classMethod;
+
+- (NSString*)getMyName;
+
+- (void)newMethod:(NSString*) output;
+
+@end
+
+%hook CustomViewController
+
++ (void)classMethod
 {
 	%log;
 
-	return %orig;
+	%orig;
 }
 
-- (void)messageWithNoReturnAndOneArgument:(id)originalArgument
-{
-	%log;
-
-	%orig(originalArgument);
-	
-	// or, for exmaple, you could use a custom value instead of the original argument: %orig(customValue);
+%new
+-(void)newMethod:(NSString*) output{
+    NSLog(@"This is a new method : %@", output);
 }
 
-- (id)messageWithReturnAndNoArguments
+%new
+- (id)newProperty {
+    return objc_getAssociatedObject(self, @selector(newProperty));
+}
+
+%new
+- (void)setNewProperty:(id)value {
+    objc_setAssociatedObject(self, @selector(newProperty), value, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
+
+- (NSString*)getMyName
 {
 	%log;
+    
+    NSString* password = MSHookIvar<NSString*>(self,"_password");
+    
+    NSLog(@"password:%@", password);
+    
+    [%c(CustomViewController) classMethod];
+    
+    [self newMethod:@"output"];
+    
+    self.newProperty = @"newProperty";
+    
+    NSLog(@"newProperty : %@", self.newProperty);
 
-	id originalReturnOfMessage = %orig;
-	
-	// for example, you could modify the original return value before returning it: [SomeOtherClass doSomethingToThisObject:originalReturnOfMessage];
-
-	return originalReturnOfMessage;
+	return %orig();
 }
 
 %end

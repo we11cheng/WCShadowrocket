@@ -1,8 +1,11 @@
 //  weibo: http://weibo.com/xiaoqing28
 //  blog:  http://www.alonemonkey.com
 //
+//  AntiAntiDebug.m
+//  MonkeyDev
+//
 //  Created by AloneMonkey on 2016/12/10.
-//  Copyright © 2017年 Coder. All rights reserved.
+//  Copyright © 2017年 MonkeyDev. All rights reserved.
 //
 
 #if TARGET_OS_SIMULATOR

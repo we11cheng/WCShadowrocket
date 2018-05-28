@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SinfPaths</key>
+	<array>
+		<string>SC_Info/Shadowrocket.sinf</string>
+	</array>
+	<key>SinfReplicationPaths</key>
+	<array>
+		<string>PlugIns/PacketTunnel.appex/SC_Info/PacketTunnel.sinf</string>
+		<string>PlugIns/Today.appex/SC_Info/Today.sinf</string>
+		<string>SC_Info/Shadowrocket.sinf</string>
+	</array>
+</dict>
+</plist>

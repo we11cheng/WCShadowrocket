@@ -1,6 +1,9 @@
 //  weibo: http://weibo.com/xiaoqing28
 //  blog:  http://www.alonemonkey.com
 //
+//  MDMethodTrace.h
+//  MonkeyDev
+//
 //  Created by AloneMonkey on 2017/9/7.
 //  Copyright © 2017年 AloneMonkey. All rights reserved.
 //
@@ -10,7 +13,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MethodTrace : NSObject
+@interface MDMethodTrace : NSObject
 
 + (void)addClassTrace:(NSString*) className;
 

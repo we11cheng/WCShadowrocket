@@ -41,13 +41,16 @@ ps：127.0.0.1是默认本机回环地址。
 ### 开始砸壳之旅
 
 - 从Github下载工程：
-``` git clone https://github.com/AloneMonkey/frida-ios-dump 
-```        
+```
+git clone https://github.com/AloneMonkey/frida-ios-dump 
+```     
 - 安装依赖：
-```sudo pip install -r /opt/dump/frida-ios-dump/requirements.txt --upgrade
+```
+sudo pip install -r /opt/dump/frida-ios-dump/requirements.txt --upgrade
 ```
 - 修改dump.py参数：
-```vim frida-ios-dump/dump.py
+```
+vim frida-ios-dump/dump.py
 ```
 - 找到如下几行   
 User = 'root'   
@@ -62,7 +65,5 @@ Port = 2222
 
 #### ps1:执行dump命令的时候要确保手机上已经打开你需要砸壳的app。
 ### ps2:Python3 有对应Python3 分支3.x分支（如何切换分支自行百度）演示的为Python2。
-
-
 
 

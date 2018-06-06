@@ -32,6 +32,18 @@ sudo xcode-select -s /Applications/Xcode.app
 sudo /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/AloneMonkey/MonkeyDev/master/bin/md-install)"
 ```
 
+- 更新
+
+```
+sudo /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/AloneMonkey/MonkeyDev/master/bin/md-update)"
+```
+
+- 卸载
+
+```
+sudo /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/AloneMonkey/MonkeyDev/master/bin/md-uninstall)"
+```
+
 #### 2、运行工程
 
 - 打开工程 WCShadowrocket.xcodeproj 
@@ -61,10 +73,7 @@ sudo /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/AloneMonkey/Monk
 
 - 酷我音乐无损音质去壳ipa 路径：其他砸壳ipa目录下。拖入项目target运行即可（应用我都会先测试一下,放心使用）     
 - 提供免费付费软件砸壳，低调使用。应用列表：Shu Thor Detour Kitsunebi Pythonista HyperApp JSBOx Surge Quantumult PPHub Tik Tok Mume Mume Red ...
-- 2108-5-28 更新最新的MonkeyDev。解决项目InfoPlist找不到的问题。更新MonkeyDev命令如下：
-```
-sudo /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/AloneMonkey/MonkeyDev/master/bin/md-update)"
-```
+- 2108-5-28 更新最新的MonkeyDev。
 - 2018-5-29 添加自建vps ssr节点信息。虽然延迟有点高，但还是能用的。完全自己搭建，(有限制流量，不够再加)放心使用~  
  SSR   链接 : ssr://MTk4LjE4MS4zNS4yMzoxMDAwMTphdXRoX2FlczEyOF9tZDU6YWVzLTEyOC1jdHI6dGxzMS4yX3RpY2tldF9hdXRoOlozZGpNWEJoYzNN   
  SSR 二维码 : http://doub.pw/qr/qr.php?text=ssr://MTk4LjE4MS4zNS4yMzoxMDAwMTphdXRoX2FlczEyOF9tZDU6YWVzLTEyOC1jdHI6dGxzMS4yX3RpY2tldF9hdXRoOlozZGpNWEJoYzNN   

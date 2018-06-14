@@ -79,5 +79,6 @@ sudo /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/AloneMonkey/Monk
  SSR 二维码 : http://doub.pw/qr/qr.php?text=ssr://MTk4LjE4MS4zNS4yMzoxMDAwMTphdXRoX2FlczEyOF9tZDU6YWVzLTEyOC1jdHI6dGxzMS4yX3RpY2tldF9hdXRoOlozZGpNWEJoYzNN   
 ![](http://p2bzzkn05.bkt.clouddn.com/18-5-29/71122417.jpg)  
 规则详见<https://github.com/lhie1/Rules>,自行选择使用。
+- 2018-6-14 ,其他部分砸壳ipa请戳<https://github.com/we11cheng/WCCrackedCollect>
 
 

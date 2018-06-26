@@ -76,7 +76,9 @@ sudo /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/AloneMonkey/Monk
 - 2108-5-28 更新最新的MonkeyDev。
 - 2018-5-29 添加自建vps ssr节点信息。虽然延迟有点高，但还是能用的。完全自己搭建，(有限制流量，不够再加)放心使用~  
  SSR   链接 : ssr://NjQuMTM3LjI1MS4xNDE6NTg2NzphdXRoX3NoYTFfdjQ6Y2hhY2hhMjA6dGxzMS4yX3RpY2tldF9hdXRoOlpHOTFZaTVwYnk5emMzcG9abmd2S2pVNE5qYy8/b2Jmc3BhcmFtPSZwcm90b3BhcmFtPSZncm91cD1kM2QzTG5OemNuTm9ZWEpsTG1OdmJRJnJlbWFya3M9UkUxZlRtOWtaUQ   
+
  SSR 二维码 : http://doub.pw/qr/qr.php?text=ssr://NjQuMTM3LjI1MS4xNDE6NTg2NzphdXRoX3NoYTFfdjQ6Y2hhY2hhMjA6dGxzMS4yX3RpY2tldF9hdXRoOlpHOTFZaTVwYnk5emMzcG9abmd2S2pVNE5qYy8/b2Jmc3BhcmFtPSZwcm90b3BhcmFtPSZncm91cD1kM2QzTG5OemNuTm9ZWEpsTG1OdmJRJnJlbWFya3M9UkUxZlRtOWtaUQ
+
 ![](http://p2bzzkn05.bkt.clouddn.com/18-6-26/47803455.jpg)
 规则详见<https://github.com/lhie1/Rules>,自行选择使用。
 - 2018-6-14,其他部分砸壳ipa请戳<https://github.com/we11cheng/WCCrackedCollect>

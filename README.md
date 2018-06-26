@@ -81,5 +81,23 @@ sudo /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/AloneMonkey/Monk
 - 规则详见<https://github.com/lhie1/Rules>,自行选择使用。
 - 2018-6-14,其他部分砸壳ipa请戳<https://github.com/we11cheng/WCCrackedCollect>
 - 2018-6-26,vps炸裂，更新ssr信息。
+- 2018-6-26 先增ssr节点订阅模式(免费)。
+
+#### 参考<https://tool.ssrshare.xyz/tool/free_ssr>
+##### 简单使用
+- 打开shadowrocket 首页，点击右上角+号。模式选择Subscribe
+- URL部分输入以下三个地址（一个或多选，多选表示订阅多个）
+
+```
+实时订阅链接,为防止滥用，24小时自动更改一次密码(key) 所有(golbal)可用订阅:
+https://tool.ssrshare.xyz/tool/api/getGolSub?key=1529942400_8_xuo
+实时订阅链接,为防止滥用，24小时自动更改一次密码(key) 中国(CN)可用订阅:
+https://tool.ssrshare.xyz/tool/api/getCnSub?key=1529942400_8_xuo
+非实时订阅链接（无密码）:
+https://raw.githubusercontent.com/ImLaoD/sub/master/ssrshare.com
+```
+- 点击完成，就能发现节点列表新增了我们订阅节点信息。选择一个可以的连接即可。
+
+#### 最后一个订阅地址是开源的(托管在git)。[查看作者repo](https://github.com/ImLaoD/sub)
 
 

@@ -1,5 +1,6 @@
 # iOS版Shadowrocket 完美重签 无需付费 无需越狱~ (理论上支持越狱手机所有已购App)
 # 越狱手机砸壳ipa 详见<https://github.com/AloneMonkey/frida-ios-dump>
+# 砸壳教程<https://github.com/we11cheng/WCShadowrocket/blob/master/frida-ios-dumy%20.md>
 # 查看应用的bundleID ```Python3 dump.py -l```
 # 砸壳 ```Python3 dump.py bundleID```
 

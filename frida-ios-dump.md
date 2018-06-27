@@ -1,4 +1,4 @@
-## frida-ios-dumy 
+## frida-ios-dump 
 ### 新手砸壳教程（演示为Python2环境）
 
 ### ios端配置参考（越狱情况下）

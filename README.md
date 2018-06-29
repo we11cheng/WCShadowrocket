@@ -72,7 +72,6 @@ sudo /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/AloneMonkey/Monk
 
 ## 最近更新
 
-- 酷我音乐无损音质去壳ipa 路径：其他砸壳ipa目录下。拖入项目target运行即可（应用我都会先测试一下,放心使用）     
 - 提供免费付费软件砸壳，低调使用。应用列表：Shu Thor Detour Kitsunebi Pythonista HyperApp JSBOx Surge Quantumult PPHub Tik Tok Mume Mume Red ...
 - 2108-5-28 更新最新的MonkeyDev。
 - 2018-5-29 添加自建vps ssr节点信息。虽然延迟有点高，但还是能用的。完全自己搭建，(有限制流量，不够再加)放心使用~  

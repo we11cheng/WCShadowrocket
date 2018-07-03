@@ -1,9 +1,6 @@
 # iOS版Shadowrocket 完美重签 无需付费 无需越狱~ (理论上支持越狱手机所有已购App)
-# 越狱手机砸壳ipa 详见<https://github.com/AloneMonkey/frida-ios-dump>
-# 砸壳教程<https://github.com/we11cheng/WCShadowrocket/blob/master/frida-ios-dump.md>
-# 查看应用的bundleID ```python dump.py -l```
-# 砸壳 ```python dump.py bundle id```
-
+# 越狱手机砸壳工具 详见<https://github.com/AloneMonkey/frida-ios-dump>
+# 砸壳教程<https://github.com/we11cheng/WCStudy/blob/master/frida-ios-dump.md>
 
 ## 使用
 
@@ -50,7 +47,7 @@ sudo /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/AloneMonkey/Monk
 - 打开工程 WCShadowrocket.xcodeproj 
 - 选择证书：自动配置证书即可（相信大家都是没有问题的）。
 - 选择设备(不可选择模拟器，且仅支持64位设备)运行。
-- 本次测试机iphone6s 10.3.3 xcode 9.3（其他机型应该也没问题）。
+- 本次测试机iphone6s 10.3.3 xcode 9.3（iOS11测试过可以运行,其他机型应该也没啥问题）。
 
 
 ## 版权及免责声明

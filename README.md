@@ -1,4 +1,4 @@
-# iOS版Shadowrocket 完美重签 无需付费 无需越狱~ (理论上支持越狱手机所有已购App)
+# iOS版Shadowrocket 完美重签 无需付费 无需越狱~ 
 # 越狱手机砸壳工具 详见<https://github.com/AloneMonkey/frida-ios-dump>
 # 砸壳教程<https://github.com/we11cheng/WCStudy/blob/master/frida-ios-dump.md>
 
@@ -69,7 +69,7 @@ sudo /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/AloneMonkey/Monk
 
 ## 最近更新
 
-- 提供免费付费软件砸壳，低调使用。应用列表：Shu Thor Detour Kitsunebi Pythonista HyperApp JSBOx Surge Quantumult PPHub Tik Tok Mume Mume Red ...
+- 提供免费付费软件砸壳，理论上支持越狱手机上所有软件砸壳，砸壳以后拖入MonkeyDev开始逆向之旅吧~。应用列表：Shu Thor Detour Kitsunebi Pythonista HyperApp JSBOx Surge Quantumult PPHub Tik Tok Mume Mume Red ...
 - 2108-5-28 更新最新的MonkeyDev。
 - 2018-5-29 添加自建vps ssr节点信息。虽然延迟有点高，但还是能用的。完全自己搭建，(有限制流量，不够再加)放心使用~  
 ### SSR   链接 : ssr://MTk4LjE4MS4zNS4yMzoxMDAwMTphdXRoX2FlczEyOF9tZDU6YWVzLTEyOC1jdHI6dGxzMS4yX3RpY2tldF9hdXRoOlozZGpNWEJoYzNN   

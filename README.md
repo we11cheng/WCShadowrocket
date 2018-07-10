@@ -1,6 +1,7 @@
 # iOS版Shadowrocket 完美重签 无需付费 无需越狱~ 
 # 越狱手机砸壳工具 详见<https://github.com/AloneMonkey/frida-ios-dump>
 # 砸壳教程<https://github.com/we11cheng/WCStudy/blob/master/frida-ios-dump.md>
+# 其他砸壳收集请戳<https://github.com/we11cheng/WCCrackedCollect>
 
 ## 使用
 
@@ -76,7 +77,6 @@ sudo /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/AloneMonkey/Monk
 ### SSR 二维码 : http://doub.pw/qr/qr.php?text=ssr://MTk4LjE4MS4zNS4yMzoxMDAwMTphdXRoX2FlczEyOF9tZDU6YWVzLTEyOC1jdHI6dGxzMS4yX3RpY2tldF9hdXRoOlozZGpNWEJoYzNN  
 ![](http://p2bzzkn05.bkt.clouddn.com/18-6-29/16183231.jpg)
 - 规则详见<https://github.com/lhie1/Rules>,自行选择使用。
-- 2018-6-14,其他部分砸壳ipa请戳<https://github.com/we11cheng/WCCrackedCollect>
 - 2018-6-26,vps炸裂，更新ssr信息。
 
 ### 2018-6-26 先增ssr节点订阅模式(免费)。

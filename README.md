@@ -105,6 +105,7 @@ https://raw.githubusercontent.com/ImLaoD/sub/master/ssrshare.com
 ### 遇到问题，还没解决..求大佬们一起解决它..
 
 ```
+CoreData: annotation:  Failed to load optimized model at path '/var/containers/Bundle/Application/9D19C752-5139-426B-815E-2A68B632352F/WCShadowrocket.app/Shadowrocket.momd/Shadowrocket 7.omo'
 *** Terminating app due to uncaught exception 'NSFileHandleOperationException', reason: '*** -[NSConcreteFileHandle seekToFileOffset:]: Bad file descriptor'
 ```
 

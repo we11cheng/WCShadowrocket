@@ -97,4 +97,20 @@ https://raw.githubusercontent.com/ImLaoD/sub/master/ssrshare.com
 
 #### 最后一个订阅地址是开源的(托管在git)。[查看作者repo](https://github.com/ImLaoD/sub)
 
+### 2018-7-17 更新
+#### 添加了Capabilities下Person VPN Network Extensions
+
+![](https://github.com/we11cheng/WCImageHost/raw/master/WX20180717-102431.png)
+
+### 遇到问题，还没解决..求大佬们一起解决它..
+
+```
+*** Terminating app due to uncaught exception 'NSFileHandleOperationException', reason: '*** -[NSConcreteFileHandle seekToFileOffset:]: Bad file descriptor'
+```
+
+![](https://github.com/we11cheng/WCImageHost/raw/master/WX20180717-102320.png)
+
+### 最新福利，谷歌云上搭建了一个App Engine 爬取ssr/ss节点，拿去不谢 <https://sspy-210307.appspot.com/>
+
+
 

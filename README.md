@@ -79,7 +79,7 @@ sudo /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/AloneMonkey/Monk
 - 规则详见<https://github.com/lhie1/Rules>,自行选择使用。
 - 2018-6-26,vps炸裂，更新ssr信息。
 
-### 2018-6-26 先增ssr节点订阅模式(免费)。
+### 2018-6-26 新增ssr节点订阅模式(免费)。
 #### 参考<https://tool.ssrshare.xyz/tool/free_ssr>
 ##### 简单使用
 - 打开shadowrocket 首页，点击右上角+号。模式选择Subscribe
@@ -102,7 +102,7 @@ https://raw.githubusercontent.com/ImLaoD/sub/master/ssrshare.com
 
 ![](https://github.com/we11cheng/WCImageHost/raw/master/WX20180717-102431.png)
 
-### 遇到问题，还没解决..求大佬们一起解决它..
+### 添加节点的时候，遇到问题，还没解决..求大佬们一起解决它..
 
 ```
 CoreData: annotation:  Failed to load optimized model at path '/var/containers/Bundle/Application/9D19C752-5139-426B-815E-2A68B632352F/WCShadowrocket.app/Shadowrocket.momd/Shadowrocket 7.omo'

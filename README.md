@@ -98,7 +98,7 @@ https://raw.githubusercontent.com/ImLaoD/sub/master/ssrshare.com
 #### 最后一个订阅地址是开源的(托管在git)。[查看作者repo](https://github.com/ImLaoD/sub)
 
 ### 2018-7-17 更新
-#### 添加了Capabilities下Person VPN Network Extensions
+#### 添加了Capabilities下Person VPN Network Extensions 帮助<https://github.com/we11cheng/WCStudy/blob/master/iOS%20Widget%20Extensions%E8%AF%81%E4%B9%A6%E9%85%8D%E7%BD%AE.md>
 
 ![](https://github.com/we11cheng/WCImageHost/raw/master/WX20180717-102431.png)
 

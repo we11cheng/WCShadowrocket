@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84C2588320F6EBC300FAEB54 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C2588220F6EBC300FAEB54 /* NetworkExtension.framework */; };
 		84E0631F20BC01D4008C835A /* MDConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84E0631E20BC01D4008C835A /* MDConfig.plist */; };
 		84E0632920BC01D4008C835A /* libWCShadowrocketDylib.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84E0632820BC01D4008C835A /* libWCShadowrocketDylib.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		84E0632E20BC01D4008C835A /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E0632D20BC01D4008C835A /* JavaScriptCore.framework */; };
@@ -54,6 +55,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		84C2588220F6EBC300FAEB54 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		84C2588420F6EBC300FAEB54 /* WCShadowrocket.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WCShadowrocket.entitlements; sourceTree = "<group>"; };
 		84E0631620BC01D4008C835A /* WCShadowrocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WCShadowrocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E0631920BC01D4008C835A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		84E0631A20BC01D4008C835A /* Target.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Target.plist; sourceTree = "<group>"; };
@@ -90,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C2588320F6EBC300FAEB54 /* NetworkExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +132,7 @@
 		84E0631820BC01D4008C835A /* WCShadowrocket */ = {
 			isa = PBXGroup;
 			children = (
+				84C2588420F6EBC300FAEB54 /* WCShadowrocket.entitlements */,
 				84E0631920BC01D4008C835A /* icon.png */,
 				84E0631A20BC01D4008C835A /* Target.plist */,
 				84E0632220BC01D4008C835A /* Info.plist */,
@@ -165,6 +170,7 @@
 		84E0632C20BC01D4008C835A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84C2588220F6EBC300FAEB54 /* NetworkExtension.framework */,
 				84E0632D20BC01D4008C835A /* JavaScriptCore.framework */,
 				84E0632F20BC01D4008C835A /* Foundation.framework */,
 				84E0633120BC01D4008C835A /* UIKit.framework */,
@@ -316,6 +322,14 @@
 					84E0631520BC01D4008C835A = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.NetworkExtensions.iOS = {
+								enabled = 1;
+							};
+							com.apple.VPNLite = {
+								enabled = 1;
+							};
+						};
 					};
 					84E0632720BC01D4008C835A = {
 						CreatedOnToolsVersion = 9.2;
@@ -648,6 +662,7 @@
 		84E0636220BC01D4008C835A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = WCShadowrocket/WCShadowrocket.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 296BA8G9JQ;
 				ENABLE_BITCODE = NO;
@@ -659,7 +674,7 @@
 				MONKEYDEV_TARGET_APP = Optional;
 				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				PODS_ROOT = "${SRCROOT}/Pods";
-				PRODUCT_BUNDLE_IDENTIFIER = obizsoft.WCShadowrocket;
+				PRODUCT_BUNDLE_IDENTIFIER = com.obizsoft.WCShadowrocket2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -668,6 +683,7 @@
 		84E0636320BC01D4008C835A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = WCShadowrocket/WCShadowrocket.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 296BA8G9JQ;
 				ENABLE_BITCODE = NO;
@@ -679,7 +695,7 @@
 				MONKEYDEV_TARGET_APP = Optional;
 				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				PODS_ROOT = "${SRCROOT}/Pods";
-				PRODUCT_BUNDLE_IDENTIFIER = obizsoft.WCShadowrocket;
+				PRODUCT_BUNDLE_IDENTIFIER = com.obizsoft.WCShadowrocket2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

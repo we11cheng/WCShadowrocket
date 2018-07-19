@@ -72,12 +72,12 @@ sudo /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/AloneMonkey/Monk
 
 - 提供免费付费软件砸壳，理论上支持越狱手机上所有软件砸壳，砸壳以后拖入MonkeyDev开始逆向之旅吧~。应用列表：Shu Thor Detour Kitsunebi Pythonista HyperApp JSBOx Surge Quantumult PPHub Tik Tok Mume Mume Red ...
 - 2108-5-28 更新最新的MonkeyDev。
-- 2018-5-29 添加自建vps ssr节点信息。虽然延迟有点高，但还是能用的。完全自己搭建，(有限制流量，不够再加)放心使用~  
-### SSR   链接 : ssr://MTk4LjE4MS4zNS4yMzoxMDAwMTphdXRoX2FlczEyOF9tZDU6YWVzLTEyOC1jdHI6dGxzMS4yX3RpY2tldF9hdXRoOlozZGpNWEJoYzNN   
-### SSR 二维码 : http://doub.pw/qr/qr.php?text=ssr://MTk4LjE4MS4zNS4yMzoxMDAwMTphdXRoX2FlczEyOF9tZDU6YWVzLTEyOC1jdHI6dGxzMS4yX3RpY2tldF9hdXRoOlozZGpNWEJoYzNN  
-![](http://p2bzzkn05.bkt.clouddn.com/18-6-29/16183231.jpg)
-- 规则详见<https://github.com/lhie1/Rules>,自行选择使用。
-- 2018-6-26,vps炸裂，更新ssr信息。
+- 2018-5-29 添加自建vps ssr&ss节点信息。虽然延迟有点高，但还是能用的。完全自己搭建，(有限制流量，不够再加)放心使用~  
+### SS    链接 : ss://YWVzLTI1Ni1jdHI6Z3djcGF_f0AxOTguMTgxLjM1LjIzOjEwMDAx 
+### SS  二维码 : <http://doub.pw/qr/qr.php?text=ss://YWVzLTI1Ni1jdHI6Z3djcGF_f0AxOTguMTgxLjM1LjIzOjEwMDAx>
+### SSR   链接 : ssr://MTk4LjE4MS4zNS4yMzoxMDAwMTpvcmlnaW46YWVzLTI1Ni1jdHI6cGxhaW46WjNkamNHRl9mdw 
+### SSR 二维码 : <http://doub.pw/qr/qr.php?text=ssr://MTk4LjE4MS4zNS4yMzoxMDAwMTpvcmlnaW46YWVzLTI1Ni1jdHI6cGxhaW46WjNkamNHRl9mdw>
+- 规则详见<https://github.com/lhie1/Rules>,自行选择使用，更多规则<https://github.com/h2y/Shadowrocket-ADBlock-Rules>
 
 ### 2018-6-26 新增ssr节点订阅模式(免费)。
 #### 参考<https://tool.ssrshare.xyz/tool/free_ssr>

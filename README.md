@@ -112,6 +112,10 @@ CoreData: annotation:  Failed to load optimized model at path '/var/containers/B
 ![](https://github.com/we11cheng/WCImageHost/raw/master/WX20180717-102320.png)
 
 ### 最新福利，谷歌云上搭建了一个App Engine 爬取ssr/ss节点，拿去不谢 <https://sspy-210307.appspot.com/>
+### 2018-7-26 更新几个ssr订阅
+- 逗比根据地 <http://ss-ssshare.7e14.starter-us-west-2.openshiftapps.com/subscribe>
+- 香港节点 <https://wepn.hk/link/idFgpbMYQQxvHjuK?mu=0>
+- loremwalker <https://prom-php.herokuapp.com/cloudfra_ssr.txt>
 
 
 

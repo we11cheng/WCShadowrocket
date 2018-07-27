@@ -1,7 +1,9 @@
 # iOS版Shadowrocket 完美重签 无需付费 无需越狱~ 
-# 越狱手机砸壳工具 详见<https://github.com/AloneMonkey/frida-ios-dump>
-# 砸壳教程<https://github.com/we11cheng/WCStudy/blob/master/frida-ios-dump.md>
-# 其他砸壳收集请戳<https://github.com/we11cheng/WCCrackedCollect>
+## 越狱手机砸壳工具 详见<https://github.com/AloneMonkey/frida-ios-dump>
+## 砸壳教程<https://github.com/we11cheng/WCStudy/blob/master/frida-ios-dump.md>
+## dumpdecrypted砸壳<https://github.com/we11cheng/WCStudy/blob/master/dumpdecrypted%20%E5%AF%BC%E5%87%BA%E5%A4%B4%E6%96%87%E4%BB%B6.md>
+## Clutch砸壳<https://github.com/we11cheng/WCStudy/blob/master/Clutch%E7%A0%B8%E5%A3%B3(%E8%8F%9C%E9%B8%A1%E7%89%88).md>
+## 其他砸壳收集请戳<https://github.com/we11cheng/WCCrackedCollect>
 
 ## 使用
 

@@ -115,3 +115,4 @@ CoreData: annotation:  Failed to load optimized model at path '/var/containers/B
 - 香港节点 <https://wepn.hk/link/idFgpbMYQQxvHjuK?mu=0>
 - loremwalker <https://prom-php.herokuapp.com/cloudfra_ssr.txt>
 - App Engine <https://sspy-210307.appspot.com/subscribe>,update可能需要科学上网。
+- 他人共享<https://raw.githubusercontent.com/forpw2009/lpss2009/master/ssr/lpssr> 作者github主页<https://github.com/forpw2009>

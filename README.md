@@ -118,4 +118,4 @@ CoreData: annotation:  Failed to load optimized model at path '/var/containers/B
 - 他人共享<https://raw.githubusercontent.com/forpw2009/lpss2009/master/ssr/lpssr> 作者github主页<https://github.com/forpw2009>
 - Heroku <https://isspy.herokuapp.com/subscribe>
 
-### 2018-8-21 App Engine欠费关闭，改用Heroku部署，地址 <https://isspy.herokuapp.com/>
+### 2018-8-21 App Engine欠费关闭，改用Heroku部署，项目主页地址 <https://isspy.herokuapp.com/> ss/ssr订阅地址 <https://isspy.herokuapp.com/subscribe>

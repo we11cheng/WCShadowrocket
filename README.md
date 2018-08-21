@@ -109,10 +109,13 @@ CoreData: annotation:  Failed to load optimized model at path '/var/containers/B
 
 ![](https://github.com/we11cheng/WCImageHost/raw/master/WX20180717-102320.png)
 
-### 最新福利，谷歌云上搭建了一个App Engine 爬取ssr/ss节点，拿去不谢 <https://sspy-210307.appspot.com/>
+### 最新福利，谷歌云上搭建了一个App Engine 爬取ssr/ss节点，拿去不谢 <https://sspy-210307.appspot.com/>（已失效）
 ## 2018-7-26 更新几个ssr订阅
 - 逗比根据地 <http://ss-ssshare.7e14.starter-us-west-2.openshiftapps.com/subscribe>
 - 香港节点 <https://wepn.hk/link/idFgpbMYQQxvHjuK?mu=0>
 - loremwalker <https://prom-php.herokuapp.com/cloudfra_ssr.txt>
-- App Engine <https://sspy-210307.appspot.com/subscribe>,update可能需要科学上网。
+- App Engine <https://sspy-210307.appspot.com/subscribe>,update可能需要科学上网。（已失效）
 - 他人共享<https://raw.githubusercontent.com/forpw2009/lpss2009/master/ssr/lpssr> 作者github主页<https://github.com/forpw2009>
+- Heroku <https://isspy.herokuapp.com/subscribe>
+
+### 2018-8-21 App Engine欠费关闭，改用Heroku部署，地址 <https://isspy.herokuapp.com/>

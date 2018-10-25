@@ -68,18 +68,20 @@ sudo /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/AloneMonkey/Monk
 
 ## 福利
 
-- 提供免费付费软件砸壳，理论上支持越狱手机上所有软件砸壳，砸壳以后拖入MonkeyDev开始逆向之旅吧~。应用列表：Shu Thor Detour Kitsunebi Pythonista HyperApp JSBOx Surge Quantumult PPHub Tik Tok Mume Mume Red ...
-- 2018-5-29 添加自建vps ssr&ss节点信息。虽然延迟有点高，但还是能用的。完全自己搭建，(有限制流量，不够再加)放心使用~  
+- 提供免费付费软件砸壳，理论上支持越狱手机上所有软件砸壳，砸壳以后拖入MonkeyDev开始逆向之旅吧。
+- 2018-5-29 添加自建vps ssr&ss节点信息。虽然延迟有点高，但还是能用的。完全自己搭建，(有限制流量，不够再加)。
 
-### SS    链接 : ss://YWVzLTI1Ni1jdHI6Z3djcGF_f0AxOTguMTgxLjM1LjIzOjEwMDAx 
-### SS  二维码 : <http://doub.pw/qr/qr.php?text=ss://YWVzLTI1Ni1jdHI6Z3djcGF_f0AxOTguMTgxLjM1LjIzOjEwMDAx>
-### SSR   链接 : ssr://MTk4LjE4MS4zNS4yMzoxMDAwMTpvcmlnaW46YWVzLTI1Ni1jdHI6cGxhaW46WjNkamNHRl9mdw 
-### SSR 二维码 : <http://doub.pw/qr/qr.php?text=ssr://MTk4LjE4MS4zNS4yMzoxMDAwMTpvcmlnaW46YWVzLTI1Ni1jdHI6cGxhaW46WjNkamNHRl9mdw>
+
+### SS链接 : ss://YWVzLTI1Ni1jZmI6aXdlMTFjaGVuZ0AxOTguMTgxLjM1LjEwMjoxMDAwNQ
+### SS二维码 : <http://doub.pw/qr/qr.php?text=ss://YWVzLTI1Ni1jZmI6aXdlMTFjaGVuZ0AxOTguMTgxLjM1LjEwMjoxMDAwNQ>
+### SSR链接 : ssr://MTk4LjE4MS4zNS4xMDI6MTAwMDU6b3JpZ2luOmFlcy0yNTYtY2ZiOnBsYWluOmFYZGxNVEZqYUdWdVp3 
+### SSR 二维码 : <http://doub.pw/qr/qr.php?text=ssr://MTk4LjE4MS4zNS4xMDI6MTAwMDU6b3JpZ2luOmFlcy0yNTYtY2ZiOnBsYWluOmFYZGxNVEZqYUdWdVp3>
+
 ### 规则详见<https://github.com/lhie1/Rules>，自行选择使用，更多规则<https://github.com/h2y/Shadowrocket-ADBlock-Rules>
 
 ## 2018-6-26 新增ssr节点订阅模式(免费)。
-### 参考<https://tool.ssrshare.xyz/tool/free_ssr>
-### 如何订阅
+- 参考<https://tool.ssrshare.xyz/tool/free_ssr>
+- 如何订阅
 - 打开shadowrocket 首页，点击右上角+号。模式选择Subscribe
 - URL部分输入以下三个地址（一个或多选，多选表示订阅多个）
 
@@ -109,13 +111,14 @@ CoreData: annotation:  Failed to load optimized model at path '/var/containers/B
 
 ![](https://github.com/we11cheng/WCImageHost/raw/master/WX20180717-102320.png)
 
-### 最新福利，谷歌云上搭建了一个App Engine 爬取ssr/ss节点，拿去不谢 <https://sspy-210307.appspot.com/>（已失效）
+
 ## 2018-7-26 更新几个ssr订阅
 - 逗比根据地 <http://ss-ssshare.7e14.starter-us-west-2.openshiftapps.com/subscribe>
 - 香港节点 <https://wepn.hk/link/idFgpbMYQQxvHjuK?mu=0>
 - loremwalker <https://prom-php.herokuapp.com/cloudfra_ssr.txt>
-- App Engine <https://sspy-210307.appspot.com/subscribe>,update可能需要科学上网。（已失效）
-- 他人共享<https://raw.githubusercontent.com/forpw2009/lpss2009/master/ssr/lpssr> 作者github主页<https://github.com/forpw2009>
+- lpss共享1 <https://raw.githubusercontent.com/forpw2009/lpss2009/master/ssr/lpssr> lpss共享2 <https://raw.githubusercontent.com/forpw2009/lpss2009/master/v2ray/ssrr>作者github主页<https://github.com/forpw2009>
 - Heroku <https://isspy.herokuapp.com/subscribe>
 
 ### 2018-8-21 App Engine欠费关闭，改用Heroku部署，项目主页地址 <https://isspy.herokuapp.com/> ss/ssr订阅地址 <https://isspy.herokuapp.com/subscribe>
+---
+### 节点长期提供，完全自建，免费使用。感谢大家star~

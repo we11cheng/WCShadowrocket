@@ -50,7 +50,7 @@ sudo /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/AloneMonkey/Monk
 - 打开工程 WCShadowrocket.xcodeproj 
 - 选择证书：自动配置证书即可（相信大家都是没有问题的）。
 - 选择设备(不可选择模拟器，且仅支持64位设备)运行。
-- 本次测试机iphone6s 10.3.3 xcode 9.3（iOS11测试过可以运行,其他机型应该也没啥问题）。
+- 本次测试机iphone6s 10.3.3 xcode 9.2（其他机型自己尝试）。
 
 ## 版权及免责声明
 
@@ -58,7 +58,7 @@ sudo /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/AloneMonkey/Monk
 - 感谢MonkeyDev的作者庆总<https://github.com/AloneMonkey/MonkeyDev>。
 - 如内容对您的权利造成了影响，请[issues](https://github.com/we11cheng/WCShadowrocket/issues), 我会在第一时间进行删除。
 
-## 效果截图
+## 效果截图，七牛云图床挂了，找不到原图了。╮(╯_╰)╭
 
 ![](http://p2bzzkn05.bkt.clouddn.com/18-4-10/70735207.jpg)
 

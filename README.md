@@ -72,10 +72,10 @@ sudo /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/AloneMonkey/Monk
 - 2018-5-29 添加自建vps ssr&ss节点信息。虽然延迟有点高，但还是能用的。完全自己搭建，(有限制流量，不够再加)。
 
 
-### SS链接 : ss://YWVzLTI1Ni1jZmI6aXdlMTFjaGVuZ0AxOTguMTgxLjM1LjEwMjoxMDAwNQ
-### SS二维码 : <http://doub.pw/qr/qr.php?text=ss://YWVzLTI1Ni1jZmI6aXdlMTFjaGVuZ0AxOTguMTgxLjM1LjEwMjoxMDAwNQ>
-### SSR链接 : ssr://MTk4LjE4MS4zNS4xMDI6MTAwMDU6b3JpZ2luOmFlcy0yNTYtY2ZiOnBsYWluOmFYZGxNVEZqYUdWdVp3 
-### SSR 二维码 : <http://doub.pw/qr/qr.php?text=ssr://MTk4LjE4MS4zNS4xMDI6MTAwMDU6b3JpZ2luOmFlcy0yNTYtY2ZiOnBsYWluOmFYZGxNVEZqYUdWdVp3>
+### SS链接 : ss://YWVzLTI1Ni1jZmI6Z3VhbndlaWNoZW5nMUAxOTguMTgxLjM1LjEwMjoxMDAwMQ 
+### SS二维码 : http://doub.pw/qr/qr.php?text=ss://YWVzLTI1Ni1jZmI6Z3VhbndlaWNoZW5nMUAxOTguMTgxLjM1LjEwMjoxMDAwMQ
+### SSR链接 : ssr://MTk4LjE4MS4zNS4xMDI6MTAwMDE6b3JpZ2luOmFlcy0yNTYtY2ZiOnBsYWluOlozVmhibmRsYVdOb1pXNW5NUQ 
+### SSR二维码 : http://doub.pw/qr/qr.php?text=ssr://MTk4LjE4MS4zNS4xMDI6MTAwMDE6b3JpZ2luOmFlcy0yNTYtY2ZiOnBsYWluOlozVmhibmRsYVdOb1pXNW5NUQ
 
 ### 规则详见<https://github.com/lhie1/Rules>，自行选择使用，更多规则<https://github.com/h2y/Shadowrocket-ADBlock-Rules>
 

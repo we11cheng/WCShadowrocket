@@ -60,22 +60,19 @@ sudo /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/AloneMonkey/Monk
 
 ## 效果截图，七牛云图床挂了，找不到原图了。╮(╯_╰)╭
 
-![](http://p2bzzkn05.bkt.clouddn.com/18-4-10/70735207.jpg)
-
-## 华丽的分割线
-
-点右上角的 Star 可以领红包，不信你试试。重签付费应用就是这么容易，感谢MonkeyDev作者。
 
 ## 福利
 
 - 提供免费付费软件砸壳，理论上支持越狱手机上所有软件砸壳，砸壳以后拖入MonkeyDev开始逆向之旅吧。
 - 2018-5-29 添加自建vps ssr&ss节点信息。虽然延迟有点高，但还是能用的。完全自己搭建，(有限制流量，不够再加)。
 
+### SSR:
+`
+ssr://MTA0LjE5OS4xMzguMToxMDAwMTphdXRoX2FlczEyOF9zaGExOmFlcy0yNTYtY3RyOnRsczEuMl90aWNrZXRfYXV0aDpjWGRsY25SNQ
+`
+### SSR二维码 
 
-### SS链接 : ss://YWVzLTI1Ni1jZmI6Z3VhbndlaWNoZW5nMUAxOTguMTgxLjM1LjEwMjoxMDAwMQ 
-### SS二维码 : http://doub.pw/qr/qr.php?text=ss://YWVzLTI1Ni1jZmI6Z3VhbndlaWNoZW5nMUAxOTguMTgxLjM1LjEwMjoxMDAwMQ
-### SSR链接 : ssr://MTk4LjE4MS4zNS4xMDI6MTAwMDE6b3JpZ2luOmFlcy0yNTYtY2ZiOnBsYWluOlozVmhibmRsYVdOb1pXNW5NUQ 
-### SSR二维码 : http://doub.pw/qr/qr.php?text=ssr://MTk4LjE4MS4zNS4xMDI6MTAwMDE6b3JpZ2luOmFlcy0yNTYtY2ZiOnBsYWluOlozVmhibmRsYVdOb1pXNW5NUQ
+<img src="https://raw.githubusercontent.com/we11cheng/picBed/master/20190412164152.jpg" width="200" hegiht="200" align=center />
 
 ### 规则详见<https://github.com/lhie1/Rules>，自行选择使用，更多规则<https://github.com/h2y/Shadowrocket-ADBlock-Rules>
 
@@ -112,7 +109,7 @@ CoreData: annotation:  Failed to load optimized model at path '/var/containers/B
 ![](https://github.com/we11cheng/WCImageHost/raw/master/WX20180717-102320.png)
 
 
-## 2018-7-26 更新几个ssr订阅
+## 2018-7-26 更新几个ssr订阅(部分已失效)
 - 逗比根据地 <http://ss-ssshare.7e14.starter-us-west-2.openshiftapps.com/subscribe>
 - 香港节点 <https://wepn.hk/link/idFgpbMYQQxvHjuK?mu=0>
 - loremwalker <https://prom-php.herokuapp.com/cloudfra_ssr.txt>
@@ -121,4 +118,8 @@ CoreData: annotation:  Failed to load optimized model at path '/var/containers/B
 
 ### 2018-8-21 App Engine欠费关闭，改用Heroku部署，项目主页地址 <https://isspy.herokuapp.com/> ss/ssr订阅地址 <https://isspy.herokuapp.com/subscribe>
 ---
+## 华丽的分割线
+
+点右上角的 Star 可以领红包，不信你试试。重签付费应用就是这么容易，感谢MonkeyDev作者。
 ### 节点长期提供，完全自建，免费使用。感谢大家star~
+

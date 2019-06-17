@@ -68,11 +68,12 @@ sudo /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/AloneMonkey/Monk
 
 ### SSR:
 `
-ssr://MTA0LjE5OS4xMzguMToxMDAwMTphdXRoX2FlczEyOF9zaGExOmFlcy0yNTYtY3RyOnRsczEuMl90aWNrZXRfYXV0aDpjWGRsY25SNQ
+ssr://MzQuODAuMTkxLjE4NDozMzk2NjphdXRoX2NoYWluX2E6bm9uZTpwbGFpbjplWFZvZVdkMFoyZG5ady8_cmVtYXJrcz1aMmwwYUhWaU16Qm4mcHJvdG9wYXJhbT0mb2Jmc3BhcmFtPQ
 `
 ### SSR二维码 
 
-<img src="https://raw.githubusercontent.com/we11cheng/picBed/master/20190412164152.jpg" width="200" hegiht="200" align=center />
+
+<img src="https://raw.githubusercontent.com/we11cheng/picBed/master/20190617104845.jpg" width="200" hegiht="200" align=center />
 
 ### 规则详见<https://github.com/lhie1/Rules>，自行选择使用，更多规则<https://github.com/h2y/Shadowrocket-ADBlock-Rules>
 

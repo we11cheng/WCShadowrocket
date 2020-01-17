@@ -121,5 +121,7 @@ CoreData: annotation:  Failed to load optimized model at path '/var/containers/B
 ## 华丽的分割线
 
 点右上角的 Star 可以领红包，不信你试试。重签付费应用就是这么容易，感谢MonkeyDev作者。
-### 节点长期提供，完全自建，免费使用。感谢大家star~
+### 分享一个自己搭建的搬瓦工CN2节点，流量有限，想要长期稳定使用的，欢迎大佬一起续费使用
+
+![](https://raw.githubusercontent.com/we11cheng/picBed/master/20200115180434.png)
 

@@ -59,23 +59,6 @@ sudo /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/AloneMonkey/Monk
 - 如内容对您的权利造成了影响，请[issues](https://github.com/we11cheng/WCShadowrocket/issues), 我会在第一时间进行删除。
 
 ## 效果截图，七牛云图床挂了，找不到原图了。╮(╯_╰)╭
-
-
-## 福利
-
-- 提供免费付费软件砸壳，理论上支持越狱手机上所有软件砸壳，砸壳以后拖入MonkeyDev开始逆向之旅吧。
-- 2018-5-29 添加自建vps ssr&ss节点信息。虽然延迟有点高，但还是能用的。完全自己搭建，(有限制流量，不够再加)。
-
-### SSR:
-`
-ssr://MzQuODAuMTkxLjE4NDozMzk2NjphdXRoX2NoYWluX2E6bm9uZTpwbGFpbjplWFZvZVdkMFoyZG5ady8_cmVtYXJrcz1aMmwwYUhWaU16Qm4mcHJvdG9wYXJhbT0mb2Jmc3BhcmFtPQ
-`
-### SSR二维码 
-
-<img src="https://raw.githubusercontent.com/we11cheng/picBed/master/20200115180434.png" width="200" hegiht="200" align=center />
-
-### 规则详见<https://github.com/lhie1/Rules>，自行选择使用，更多规则<https://github.com/h2y/Shadowrocket-ADBlock-Rules>
-
 ## 2018-6-26 新增ssr节点订阅模式(免费)。
 - 参考<https://tool.ssrshare.xyz/tool/free_ssr>
 - 如何订阅
@@ -118,10 +101,22 @@ CoreData: annotation:  Failed to load optimized model at path '/var/containers/B
 
 ### 2018-8-21 App Engine欠费关闭，改用Heroku部署，项目主页地址 <https://isspy.herokuapp.com/> ss/ssr订阅地址 <https://isspy.herokuapp.com/subscribe>
 ---
+
+### 分享一个自己搭建的搬瓦工CN2节点(Vmess)，流量有限，且用且珍惜。
+#### 2020-6-28更新
+
+<img src="https://raw.githubusercontent.com/we11cheng/picBed/master/20200628111334.png" alt="图片调整大小" width="250" height="250" align="bottom" />
+
+#### 再来几个网上白嫖的订阅地址(有点靠谱)
+```
+https://git.io/autossr_recent
+https://git.io/autossr_stable
+https://git.io/autossr_online
+```
+#### 添加规则，详见<https://github.com/lhie1/Rules>，自行选择使用，更多规则<https://github.com/h2y/Shadowrocket-ADBlock-Rules>
+
 ## 华丽的分割线
 
 点右上角的 Star 可以领红包，不信你试试。重签付费应用就是这么容易，感谢MonkeyDev作者。
-### 分享一个自己搭建的搬瓦工CN2节点，流量有限，想要长期稳定使用的，欢迎大佬一起续费使用
 
-![](https://raw.githubusercontent.com/we11cheng/picBed/master/20200115180434.png)
 

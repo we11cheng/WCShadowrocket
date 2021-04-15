@@ -100,12 +100,8 @@ CoreData: annotation:  Failed to load optimized model at path '/var/containers/B
 - Heroku <https://isspy.herokuapp.com/subscribe>
 
 ### 2018-8-21 App Engine欠费关闭，改用Heroku部署，项目主页地址 <https://isspy.herokuapp.com/> ss/ssr订阅地址 <https://isspy.herokuapp.com/subscribe>
----
 
-### 分享一个自己搭建的搬瓦工CN2节点(Vmess)，流量有限，且用且珍惜。
-#### 2020-6-28更新
 
-<img src="https://raw.githubusercontent.com/we11cheng/picBed/master/20200628111334.png" alt="图片调整大小" width="250" height="250" align="bottom" />
 
 #### 再来几个网上白嫖的订阅地址(有点靠谱)
 ```
@@ -118,5 +114,23 @@ https://git.io/autossr_online
 ## 华丽的分割线
 
 点右上角的 Star 可以领红包，不信你试试。重签付费应用就是这么容易，感谢MonkeyDev作者。
+
+## 最新更新 2021-04-15
+### 分享一个自己搭建的搬瓦工CN2节点(ss)，流量有限，且用且珍惜。
+#### 2021-04-15更新，白嫖继续，更新不及时/被墙可以关注我的公众号联系到我(彼岸情报分享)
+
+二维码
+
+![](https://gitee.com/he11oworld/picBed/raw/master/%E4%BA%8C%E7%BB%B4%E7%A0%81%E5%9B%BE%E7%89%87_4%E6%9C%8815%E6%97%A513%E6%97%B653%E5%88%8642%E7%A7%92.png)
+
+文本
+
+```
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxYXp3c3hlZGNAMTk4LjE4MS4zNS4xNDM6MTAwMDg#%23%E5%B0%8F%E7%A8%8B%E5%BA%8F:%E6%AF%8F%E6%97%A5%E5%A4%96%E5%8D%96%E8%81%94%E7%9B%9F
+```
+
+分享一个自己搭建的外卖领券小程序，欢迎大家学习交流
+
+![](https://gitee.com/he11oworld/picBed/raw/master/20210410212801.png)
 
 
